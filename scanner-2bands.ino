@@ -83,16 +83,16 @@ void loop(void) {
 //  Serial.println(chanset);
   delay(10);
   
-  channel1 = digitalRead(2);
-  channel2 = digitalRead(3);
-  channel3 = digitalRead(4);
-  channel4 = digitalRead(5);
-  channel5 = digitalRead(6);
-  channel6 = digitalRead(7);
-  channel7 = digitalRead(8);
-  channel8 = digitalRead(9);
-  channel9 = digitalRead(10);
-  channel10 = digitalRead(11);
+  channel10 = digitalRead(2);
+  channel9 = digitalRead(3);
+  channel8 = digitalRead(4);
+  channel7 = digitalRead(5);
+  channel6 = digitalRead(6);
+  channel5 = digitalRead(7);
+  channel4 = digitalRead(8);
+  channel3 = digitalRead(9);
+  channel2 = digitalRead(10);
+  channel1 = digitalRead(11);
   clock10 = digitalRead(A3);
 
   if (clock10 == HIGH) {clockset = 1;}
